@@ -1,0 +1,112 @@
+Source code for manuscript 'Examining the robustness of observational associations to model, measurement and sampling uncertainty with the vibration of effects framework'
+by Simon Klau, Sabine Hoffmann, Chirag J. Patel, John P.A. Ioannidis and Anne-Laure Boulesteix
+
+Simon Klau was mainly responsible for writing the code. 
+For questions, comments or remarks about the code please contact him (simon.klau@yahoo.de).
+
+The code has been written and executed using R version 3.5.2 (platform: x86_64-pc-linux-gnu (64-bit)) with 
+package versions gridExtra_2.3, ggplotify_0.0.3, cowplot_0.9.4, dplyr_0.7.8, ggmap_3.0.0, GenOrd_1.4.0, MASS_7.3-51.1, Matrix_1.2-15, mvtnorm_1.0-11, survival_3.1-7, ggplot2_3.2.1, truncnorm_1.0-8 and NMOF_1.6-0 
+
+
+########################################
+
+In addition to the R-scripts described in the following, Code.zip contains the folders 'Results' and 'Figures' with empty subfolders, in which results and figures are stored when running the code. 
+
+
+#############################
+###   General functions   ###
+#############################
+
+
+- measurement_vib_ordinal
+# Functions to generate measurement error for ordinal variables
+
+
+#################################################
+###   Analysis on real data from the NHANES   ###
+#################################################
+
+
+### Measurement vibration:
+
+- measurement_vib_real_fun
+# Functions for the assessment of measurement vibration on real data
+
+- measurement_vib_real_script
+# Script for the assessment of measurement vibration on real data for measurement error in both variable of interest and adjustment
+
+- measurement_vib_real_script_adj
+# Script for the assessment of measurement vibration on real data for measurement error in adjustment variables
+
+- measurement_vib_real_script_voi
+# Script for the assessment of measurement vibration on real data for measurement error in variable of interest
+
+
+### Model vibration:
+
+- model_vib_real_fun
+# Functions for the assessment of model vibration on real data
+
+- model_vib_real_script
+# Script for the assessment of model vibration on real data
+
+
+### Sampling vibration:
+
+- sample_vib_real_fun
+# Functions for the assessment of sampling vibration on real data
+
+sample_vib_real_script
+- Script for the assessment of sampling vibration on real data
+
+
+######################################
+###   Analysis on simulated data   ###
+######################################
+
+
+### Data generation:
+
+- data_gen_functions
+# Functions generating data of different sample sizes
+
+
+### Measurement vibration:
+
+- measurement_vib_sim_fun
+# Functions for the assessment of measurement vibration on simulated data
+
+- measurement_vib_sim_script
+# Script for the assessment of measurement vibration on simulated data
+
+
+### Model vibration:
+
+- model_vib_sim_fun
+# Functions for the assessment of model vibration on simulated data
+
+- model_vib_sim_script
+# Script for the assessment of model vibraton on simulated data
+
+
+### Sampling vibration:
+
+- sample_vib_sim_fun
+# Functions for the assessment of sampling vibration on simulated data
+
+- sample_vib_sim_script
+# Script for the assessment of sampling vibration on simulated data
+
+
+###################
+###   Figures   ###
+###################
+
+- plot_functions
+# Functions required to create the figures
+
+- real_patterns_plot
+# Volcano plots for real data results (Figures 1 - 4 + Supplementary Figures 1 - 26)
+
+- sim_RHR_plot
+# RHR for different sample sizes + barplots (Figures 5 - 8 + Supplementary Figures 27 - 52)

@@ -1,0 +1,41 @@
+Variable names in the R code with corresponding variable names in the manuscript/supplement.
+For more information on the variables see Patel et al. (2015) and https://wwwn.cdc.gov/nchs/nhanes/search/default.aspx
+
+any_diabtes                         diabetes    
+any_cad                             heart disease
+BMXTHICR                            thigh circumference
+LBDHDL                              HDL-cholesterol
+any_ht                              hypertension
+any_cancer_self_report              any cancer
+any_family_cad                      family history of heart disease
+LBDNENO                             segmented neutrophils number
+BMXCALF                             maximial calf circumference
+BMXHT                               standing height
+BMXWAIST                            waist circumference
+BMXWT                               weight
+BPXPLS                              60 sec. pulse
+DSDCOUNT                            number of dietary supplements taken
+LBXHA                               hepatitis A antibody
+LBXHBC                              hepatitis B core antibody
+LBXHBS                              hepatitis B surface antibody
+LBXLYPCT                            lymphocyte percent
+LBXMPSI                             mean platelet volume
+LBXSCA                              calcium 
+LBXSNASI                            sodium  
+LBXSOSSI                            osmolality
+LBXSPH                              phosphorus
+male                                sex
+pest_control_home_last_month        pest control
+pneu                                pneumonia   
+private_water_source                private water source
+use_water_treatment                 water treatment
+RIDAGEYR                            age
+SMD410                              passive smoking
+physical_activity                   physical activity
+RIDRETH1                            race/ethnicity
+current_past_smoking                active_smoking
+bmi                                 bmi
+LBXTC                               total cholesterol
+drink_five_per_day                  drink five drinks per day (alcohol consumption)
+education                           education
+SES_LEVEL                           income
